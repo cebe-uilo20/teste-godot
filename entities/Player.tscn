@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://5hmqfc3jrwda"]
+
+[ext_resource type="Script" uid="uid://d0et7xopw0xbd" path="res://scripts/player.gd" id="1_eh0f6"]
+[ext_resource type="Texture2D" uid="uid://cxfacp6f5esa3" path="res://sprites/blonde_man.png" id="2_ojs4q"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ean2t"]
+radius = 8.0
+height = 22.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lw5ub"]
+atlas = ExtResource("2_ojs4q")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ks8m5"]
+atlas = ExtResource("2_ojs4q")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1ths"]
+atlas = ExtResource("2_ojs4q")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1f57"]
+atlas = ExtResource("2_ojs4q")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eh0f6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lw5ub")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ks8m5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1ths")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1f57")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1836671852 groups=["Player"]]
+script = ExtResource("1_eh0f6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=331350447]
+shape = SubResource("CapsuleShape2D_ean2t")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1305729915]
+position = Vector2(0, -5)
+sprite_frames = SubResource("SpriteFrames_eh0f6")
