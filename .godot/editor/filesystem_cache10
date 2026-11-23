@@ -1,0 +1,14 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1795474808
+icon.svg::CompressedTexture2D::2592560409530720052::1795474710::1795474809::1::::<><><>0<>0<>5bc3d39af7941c358a0f952305d3a042<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://entities/::1795474710
+camera_2d.tscn::PackedScene::6233311631038857907::1795474710::0::1::::<><><>0<>0<><>::uid://cech52t22004u::::res://scripts/camera_2d.gd
+Player.tscn::PackedScene::2120873397026338006::1795474710::0::1::::<><><>0<>0<><>::uid://d0et7xopw0xbd::::res://scripts/player.gd<>uid://cxfacp6f5esa3::::res://sprites/blonde_man.png
+::res://scenes/::1795474710
+scene_1.tscn::PackedScene::2881445260638735106::1795474710::0::1::::<><><>0<>0<><>::uid://5hmqfc3jrwda::::res://entities/Player.tscn<>uid://cu2py5bhr3eel::::res://entities/camera_2d.tscn<>uid://b6u54vaivd111::::res://sprites/Interiors_free_16x16.png
+::res://scripts/::1795474710
+camera_2d.gd::GDScript::5058205538958551146::1795474710::0::1::::<>Camera2D<><>0<>0<><>::
+player.gd::GDScript::8923452651690126473::1795474710::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sprites/::1795474710
+blonde_man.png::CompressedTexture2D::6397511067425689924::1795474710::1795474809::1::::<><><>0<>0<>7bc9b9d96e65c96c202edad120e98622<>res://.godot/imported/blonde_man.png-5621310cdab77d1167aad10a5a840831.ctex::
+Interiors_free_16x16.png::CompressedTexture2D::4605436792741584734::1795474710::1795474809::1::::<><><>0<>0<>517c293e44d11cb2f9791d2baa538db6<>res://.godot/imported/Interiors_free_16x16.png-74b50e2c8befd39481a15ad90e2a4d71.ctex::
